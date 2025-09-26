@@ -1,0 +1,15 @@
+{
+  "name": "MG iSMART HEV+",
+  "short_name": "MG iSMART",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#1e88e5",
+  "icons": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Mg_logo.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ]
+}
