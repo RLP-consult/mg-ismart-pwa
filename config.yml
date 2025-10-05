@@ -1,0 +1,67 @@
+# 🌐 Основні налаштування
+title: MG iSMART HEV+
+description: Брендований гайд з фольклорним присмаком — cold blue, glassmorphism, і WOW-ефект
+url: "https://rlp-consult.github.io"
+baseurl: "/mg-ismart-pwa" # якщо сайт не в корені репозиторію
+
+# 🎨 Тема
+theme: jekyll-theme-slate
+
+# 🧠 SEO
+lang: uk-UA
+timezone: Europe/Kyiv
+author: Alex from Жоравка
+keywords: [MG iSMART, HEV+, RLP CONSULT, фольклор, glassmorphism, cold blue, PWA, GitHub Pages]
+google_analytics: UA-XXXXXXXXX-X # (опціонально, якщо є)
+permalink: pretty
+
+# 📁 Структура
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+include:
+  - _pages
+  - assets
+
+# 🔤 Кастомні шрифти (через CSS)
+sass:
+  sass_dir: assets/css
+  style: compressed
+
+# 📦 Плагіни (для кастомної теми або remote_theme)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-remote-theme
+
+remote_theme: pages-themes/slate
+
+# 🖼️ Соцмережі та Open Graph
+social:
+  name: MG iSMART HEV+
+  image: /assets/img/og-image.png
+  twitter: rlpconsult
+  github: RLP-consult
+  facebook: rlpconsult
+
+# 🧭 Навігація
+navbar-links:
+  Головна: "/"
+  Інструкція: "/guide"
+  Контакти: "/contact"
+
+# 🧙‍♂️ Footer
+footer-links:
+  - name: GitHub
+    url: https://github.com/RLP-consult
+  - name: Made in Жоравка
+    url: https://rlp-consult.netlify.app/
+
+# 🧪 Тестування локально
+markdown: kramdown
+highlighter: rouge
+
